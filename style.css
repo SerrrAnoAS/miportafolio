@@ -8,7 +8,7 @@ box-sizing: content-box;
 
 }
 body{
-    background-color: rgba(15, 13, 11, 0.274);
+    background-color: white(15, 13, 11, 0.274);
 }
 
 /*aqui inicia la barra de navegacion*/
@@ -22,15 +22,18 @@ body{
     right: 0%;
 }
 
-.nav-bar {
+a >h4 {
     display: flex;
     justify-content: end;
     gap: 1rem;
 
     padding: 5;
 }
+a {
+    text-decoration: none;
+}
 
-.nav-bar>h4 {
+ a >h4 {
     color: white;
     cursor: pointer;
     font-size: 1.2rem;
@@ -38,14 +41,14 @@ body{
 
 
 
-.nav-bar>h4:hover {
+.a>h4:hover {
     color: rgb(5, 5, 5);
 }
 
 
 /*aqui inicia la seccion de servicios*/
 
-.Servicios {
+.Servicios  {
     padding: 5rem;
 
 
@@ -55,7 +58,7 @@ body{
     width: 300px;
     object-fit: contain;
     border-radius: 50%;
-    box-shadow: 1px 1px 10px rgba(19, 18, 17, 0);
+    box-shadow: 1pc 1px 10px rgba(0, 0, 0, 0.952);
 }
 
 .Servicios-img-tittle {
@@ -74,3 +77,51 @@ body{
     text-align: justify;
     padding-top: 3rem;
 }
+/*AQUI INICIA LASECCION DE HABILIDADES*/
+
+
+
+.mishabilidades{
+    background-color: rgb(180, 95, 95);
+    display: flex;
+}
+    
+.imagenes-habilidades{
+    display: flex;
+    gap: 1rem;
+   margin: .5rem;
+   justify-items: center;
+   justify-content: center;
+   align-items: center;
+   align-content: center;
+}
+.Habilidades-title{
+    padding: 5rem;
+     margin-bottom: 5rem;
+}
+    
+
+
+.row1 > img { 
+    width:50px ; 
+    margin: .5rem;
+    
+}
+
+.row2 > img {
+     width:50px ;
+    margin: .5rem;
+    
+    
+}
+.row3 > img { 
+    width:50px ;
+    margin: .5rem;
+    
+
+    
+
+}
+
+
+
